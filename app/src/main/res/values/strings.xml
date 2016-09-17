@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TWMoments</string>
+    <string name="pull_down_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新&#8230;</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_failure">刷新失败</string>
+    <string name="pull_up_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载&#8230;</string>
+    <string name="load_success">加载成功</string>
+    <string name="load_failure">加载失败</string>
+    <string name="pull_down_to_load">下拉加载更多</string>
+
+    <string name="cont_sample">关于插件，已经在各大平台上出现过很多，eclipse插件、chrome插件、3dmax插件，所有这些插件大概都为了在一个主程序中实现比较通用的功能，把业务相关或者让可以让用户自定义扩展的功能不附加在主程序中，主程序可在运行时安装和卸载。在Android如何实现插件也已经被广泛传播，实现的原理都是实现一套插件接口</string>
+</resources>

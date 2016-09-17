@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp" >
+
+    <ImageView
+        android:id="@+id/pull_indicator"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="60dp"
+        android:contentDescription="@null"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/pull_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:textSize="14sp" />
+
+</FrameLayout>

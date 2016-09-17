@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/thoughtworks"/>
+
+
+    <ImageView
+        android:id="@+id/my_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/profile_image"
+
+        android:layout_marginTop="-50dp"
+        android:src="@mipmap/my_avatar"/>
+
+    <View
+        android:id="@+id/anch"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/my_avatar"
+        android:background="#777777"/>
+
+</RelativeLayout>
